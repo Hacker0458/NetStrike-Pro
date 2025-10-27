@@ -14,14 +14,14 @@
 <h1>Professional Network Stress Testing Platform</h1>
 <h3>专业网络压力测试平台</h3>
 
-[![GitHub release](https://img.shields.io/badge/release-v2.0-blue.svg)](https://github.com/yourusername/NetStrike-Pro/releases)
+[![GitHub release](https://img.shields.io/badge/release-v2.0-blue.svg)](https://github.com/Hacker0458/NetStrike-Pro/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Node.js 20+](https://img.shields.io/badge/Node.js-20+-green.svg)](https://nodejs.org/)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-lightgrey.svg)](#)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg)](#)
-[![Maintenance](https://img.shields.io/badge/Maintained-Yes-green.svg)](https://github.com/yourusername/NetStrike-Pro/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Maintenance](https://img.shields.io/badge/Maintained-Yes-green.svg)](https://github.com/Hacker0458/NetStrike-Pro/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Hacker0458/NetStrike-Pro/blob/main/CONTRIBUTING.md)
 
 <p>
 🎯 <b>全自动化</b> • ⚡ <b>500K+ QPS</b> • 🛡️ <b>智能绕过</b> • 🌍 <b>双语支持</b> • 📦 <b>一键部署</b>
@@ -142,7 +142,7 @@ NetStrike Pro 不仅仅是一个压力测试工具，它是：
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourusername/NetStrike-Pro.git
+git clone https://github.com/Hacker0458/NetStrike-Pro.git
 cd NetStrike-Pro
 
 # 2. 一键安装所有依赖（3-5 分钟）
@@ -464,25 +464,25 @@ node tls.js https://cloudflare-protected.com 300 256 20 ../proxies_all.txt
 
 感谢所有为本项目做出贡献的开发者！
 
-[![Contributors](https://contrib.rocks/image?repo=yourusername/NetStrike-Pro)](https://github.com/yourusername/NetStrike-Pro/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Hacker0458/NetStrike-Pro)](https://github.com/Hacker0458/NetStrike-Pro/graphs/contributors)
 
 ### 📊 项目统计
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/NetStrike-Pro?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/NetStrike-Pro?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/NetStrike-Pro?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/NetStrike-Pro)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/NetStrike-Pro)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/NetStrike-Pro)
+![GitHub stars](https://img.shields.io/github/stars/Hacker0458/NetStrike-Pro?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Hacker0458/NetStrike-Pro?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/Hacker0458/NetStrike-Pro?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Hacker0458/NetStrike-Pro)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Hacker0458/NetStrike-Pro)
+![GitHub last commit](https://img.shields.io/github/last-commit/Hacker0458/NetStrike-Pro)
 
 </div>
 
 ### 📞 联系我们
 
-- 🐛 **报告 Bug**: [GitHub Issues](https://github.com/yourusername/NetStrike-Pro/issues)
-- 💬 **讨论交流**: [GitHub Discussions](https://github.com/yourusername/NetStrike-Pro/discussions)
+- 🐛 **报告 Bug**: [GitHub Issues](https://github.com/Hacker0458/NetStrike-Pro/issues)
+- 💬 **讨论交流**: [GitHub Discussions](https://github.com/Hacker0458/NetStrike-Pro/discussions)
 - 📧 **Email**: your-email@example.com
 - 🌐 **Website**: https://netstrike-pro.com (建设中)
 
@@ -507,14 +507,14 @@ node tls.js https://cloudflare-protected.com 300 256 20 ../proxies_all.txt
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/NetStrike-Pro&type=Date)](https://star-history.com/#yourusername/NetStrike-Pro&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Hacker0458/NetStrike-Pro&type=Date)](https://star-history.com/#Hacker0458/NetStrike-Pro&Date)
 
 ---
 
 ## 🎉 立即开始使用！
 
 ```bash
-git clone https://github.com/yourusername/NetStrike-Pro.git
+git clone https://github.com/Hacker0458/NetStrike-Pro.git
 cd NetStrike-Pro/legacy
 sudo ./Nodejs.sh
 node github_list.js
@@ -631,7 +631,7 @@ NetStrike Pro is more than just a stress testing tool:
 
 ```bash
 # 1. Clone the project
-git clone https://github.com/yourusername/NetStrike-Pro.git
+git clone https://github.com/Hacker0458/NetStrike-Pro.git
 cd NetStrike-Pro
 
 # 2. One-click install all dependencies (3-5 min)
