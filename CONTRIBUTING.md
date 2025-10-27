@@ -193,7 +193,7 @@ const attackTarget = (url, threads = 100) => {
 
 - 🐛 GitHub Issues
 - 💬 GitHub Discussions
-- 📧 Email: your-email@example.com
+- 📧 Email: fangp458@gmail.com
 
 ### 🙏 感谢
 
@@ -338,7 +338,7 @@ For questions:
 
 - 🐛 GitHub Issues
 - 💬 GitHub Discussions
-- 📧 Email: your-email@example.com
+- 📧 Email: fangp458@gmail.com
 
 ### 🙏 Thank You
 

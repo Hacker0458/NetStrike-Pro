@@ -42,9 +42,9 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## 执行 | Enforcement
 
-可以通过 your-email@example.com 联系社区领导者报告滥用、骚扰或其他不可接受的行为。所有投诉都将得到迅速和公平的审查和调查。
+可以通过 fangp458@gmail.com 联系社区领导者报告滥用、骚扰或其他不可接受的行为。所有投诉都将得到迅速和公平的审查和调查。
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at your-email@example.com.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at fangp458@gmail.com.
 
 ## 执行指南 | Enforcement Guidelines
 

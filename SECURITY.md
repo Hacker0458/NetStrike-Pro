@@ -17,7 +17,7 @@
 
 #### 报告流程：
 
-1. **发送邮件** 到 security@example.com
+1. **发送邮件** 到 fangp458@gmail.com
 2. **包含以下信息**：
    - 漏洞描述
    - 复现步骤
@@ -54,7 +54,7 @@ If you discover a security vulnerability, please **DO NOT** report it in a publi
 
 #### Reporting Process:
 
-1. **Email** security@example.com
+1. **Email** fangp458@gmail.com
 2. **Include**:
    - Vulnerability description
    - Steps to reproduce
@@ -144,8 +144,8 @@ If you discover a security vulnerability, please **DO NOT** report it in a publi
 
 ## 📧 联系方式 | Contact
 
-- 🔒 **安全问题** | Security Issues: security@example.com
-- 💬 **一般问题** | General Questions: your-email@example.com
+- 🔒 **安全问题** | Security Issues: fangp458@gmail.com
+- 💬 **一般问题** | General Questions: fangp458@gmail.com
 - 🐛 **Bug 报告** | Bug Reports: GitHub Issues
 
 ## 🙏 致谢 | Acknowledgments

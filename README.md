@@ -12,318 +12,325 @@
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-lightgrey.svg)](#)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg)](#)
 
-🎯 **全自动化** • ⚡ **500K+ QPS** • 🛡️ **智能绕过** • 🌍 **双语支持** • 📦 **一键部署**
+🎯 **Fully Automated** • ⚡ **500K+ QPS** • 🛡️ **Smart Bypass** • 🌍 **Bilingual** • 📦 **One-Click Deploy**
 
-[功能特性](#-功能特性) •
-[快速开始](#-快速开始) •
-[文档](#-文档) •
-[性能对比](#-性能对比) •
-[贡献](#-贡献)
-
-[🇬🇧 English](#english) | [🇨🇳 中文](#中文)
+[Features](#-features) •
+[Quick Start](#-quick-start) •
+[Documentation](#-documentation) •
+[Performance](#-performance) •
+[Contributing](#-contributing)
 
 ---
 
-### ⭐ 如果这个项目对您有帮助，请给我们一个 Star！
+### ⭐ Star us on GitHub — it motivates us a lot!
 
 </div>
 
 ---
 
-## 📢 重要声明
+## 📢 Legal Notice
 
-> **⚠️ 法律声明**: 本工具**仅供合法的安全测试使用**。使用者必须获得目标系统的**书面授权**。严禁用于非法攻击。违法使用后果自负。
-
----
-
-## 🌟 为什么选择 NetStrike Pro？
-
-NetStrike Pro 不仅仅是一个压力测试工具，它是：
-
-- 🏆 **业界最全面** - 集成 60+ 种攻击方法，覆盖所有主流场景
-- 🚀 **性能极致** - 单服务器可达 500K+ QPS，业界领先
-- 🤖 **完全自动化** - 从验证码绕过到攻击执行，无需人工干预
-- 🎯 **持续更新** - 我们承诺持续收集新资源、编写新脚本、优化性能
-- 💝 **完全免费** - 100% 开源，永久免费，没有任何隐藏费用
-- 🌍 **社区驱动** - 欢迎所有人贡献代码、提交 Issue、分享经验
+> **⚠️ IMPORTANT**: This tool is **ONLY for authorized security testing**. Users **MUST obtain written permission** from target system owners. **Unauthorized use is strictly prohibited** and may result in legal consequences. Users are solely responsible for compliance with applicable laws.
 
 ---
 
-## 🎯 功能特性
+## 🌟 Why NetStrike Pro?
 
-### 🔥 攻击能力
+NetStrike Pro is **one of the most comprehensive and powerful stress testing platforms on GitHub**, integrating over 60 attack methods, advanced CAPTCHA bypass capabilities, and achieving industry-leading performance metrics.
 
-- ✅ **60+ 攻击方法**
-  - **Layer 7**: GET, POST, CFB, CFBUAM, HTTP/2, TLS, BYPASS, SLOW, NULL, COOKIE...
-  - **Layer 4**: SYN, TCP, UDP, DNS, NTP, Memcached, ICMP...
-  - **游戏服务器**: Minecraft, FiveM, TeamSpeak...
-  
-- ✅ **500K+ QPS**
-  - 单机 150K+ QPS
-  - 服务器 500K+ QPS
-  - 智能负载均衡
+**Key Advantages:**
 
-### 🛡️ 绕过能力
-
-- ✅ **智能验证码绕过**
-  - **CDNfly 新版**: 旋转图片、困难点击、简单点击、困难滑块、简单滑块、滑动按钮、计算验证码
-  - **Cloudflare**: 自动等待挑战通过
-  - **98% 成功率**
-  
-- ✅ **100% 自动化**
-  - 自动检测验证码类型
-  - 自动执行绕过策略
-  - 自动发起洪水攻击
-
-### 🤖 自动化工具
-
-- ✅ **代理管理**
-  - 140+ GitHub 源自动采集
-  - 10K-50K 代理池
-  - 自动筛选验证
-  - 支持 HTTP/SOCKS4/SOCKS5
-  
-- ✅ **一键部署**
-  - 3-5 分钟完成安装
-  - 自动配置所有环境
-  - 智能依赖管理
-
-### 📚 文档支持
-
-- ✅ **完整文档系统**
-  - 24+ 详细文档
-  - 中英双语支持
-  - 从入门到精通
-  
-- ✅ **社区支持**
-  - GitHub Issues
-  - 详细贡献指南
-  - 实时更新维护
+- 🏆 **Most Comprehensive** - 60+ integrated attack methods covering all major scenarios
+- 🚀 **Industry-Leading Performance** - Up to 500K+ QPS on a single server
+- 🤖 **Fully Automated** - From CAPTCHA bypass to attack execution, zero manual intervention
+- 🛡️ **Advanced Bypass** - 7 types of CDNfly CAPTCHA + Cloudflare challenges (98% success rate)
+- 🎯 **Continuous Updates** - Committed to collecting new resources, writing new scripts, optimizing performance
+- 💝 **100% Free & Open Source** - No hidden fees, forever free
+- 🌍 **Community-Driven** - Welcoming code contributions, issue reports, and experience sharing
 
 ---
 
-## 🚀 快速开始
+## 🎯 Features
 
-### 方式一：一键安装（推荐）⭐
+### 🔥 Attack Capabilities
+
+**60+ Attack Methods:**
+- **Layer 7 (Application Layer)**: GET, POST, HEAD, CFB, CFBUAM, HTTP/2, TLS, BYPASS, SLOW, NULL, COOKIE, PPS, APACHE, XMLRPC, BOMB, KILLER, and more
+- **Layer 4 (Transport Layer)**: SYN, TCP, UDP, DNS, NTP, Memcached, ICMP, and more
+- **Game Servers**: Minecraft, FiveM, TeamSpeak, and more
+
+**Performance Metrics:**
+- Single machine: 150K+ QPS
+- Server deployment: 500K+ QPS
+- Intelligent load balancing
+- Multi-threaded and multi-process support
+
+### 🛡️ CAPTCHA Bypass
+
+**CDNfly New Version (7 Types):**
+- ✅ Rotation Image CAPTCHA
+- ✅ Difficult Click CAPTCHA
+- ✅ Simple Click CAPTCHA
+- ✅ Difficult Slider CAPTCHA
+- ✅ Simple Slider CAPTCHA
+- ✅ Sliding Button CAPTCHA
+- ✅ Calculation CAPTCHA (YOLOv5 powered)
+
+**Cloudflare:**
+- ✅ Automatic challenge waiting
+- ✅ 98% success rate
+
+**Automation:**
+- Automatic CAPTCHA type detection
+- Automatic bypass strategy execution
+- Automatic flood attack initiation
+
+### 🤖 Automation Tools
+
+**Proxy Management:**
+- 140+ GitHub sources auto-collection
+- 10K-50K proxy pool
+- Automatic filtering and validation
+- Support for HTTP/SOCKS4/SOCKS5
+- Free API integration
+
+**One-Click Deployment:**
+- 3-5 minutes installation
+- Automatic environment configuration
+- Smart dependency management
+
+### 📚 Documentation
+
+**Complete Documentation System:**
+- 24+ detailed documents
+- Full bilingual support (English & Chinese)
+- From beginner to advanced
+- Community support via GitHub Issues & Discussions
+
+---
+
+## 🚀 Quick Start
+
+### Method 1: One-Click Installation (Recommended) ⭐
 
 ```bash
-# 1. 克隆项目
+# 1. Clone the repository
 git clone https://github.com/Hacker0458/NetStrike-Pro.git
 cd NetStrike-Pro
 
-# 2. 一键安装所有依赖（3-5 分钟）
+# 2. One-click install all dependencies (3-5 minutes)
 cd legacy
 sudo ./Nodejs.sh
 
-# 3. 获取代理（2-3 分钟）
+# 3. Get proxies (2-3 minutes)
 node github_list.js
 
-# 4. 开始攻击！
+# 4. Start attacking!
 node floodernew.js GET "https://target.com" 120 16 90 proxies_all.txt --debug
 ```
 
-**就这么简单！🎉 10 分钟内完成从安装到攻击！**
+**That's it! 🎉 From installation to attack in under 10 minutes!**
 
-### 方式二：全自动智能攻击（带验证码绕过）⭐⭐⭐
+### Method 2: Fully Automated Smart Attack (With CAPTCHA Bypass) ⭐⭐⭐
 
 ```bash
-# 自动检测、绕过验证码、发起攻击
+# Automatically detect, bypass CAPTCHA, and launch attack
 node main.js -u https://target-with-cdnfly.com -p proxies_all.txt -t 20 -r 15 -s 300 -c -o
 
-# 输出示例：
-# ✅ [BROWSER] 检测到验证码：CDNFLY新版_困难滑块
-# ✅ [BYPASS] 自动拖动滑块...
-# ✅ [BYPASS] 绕过成功！
-# ✅ [ATTACK] 启动洪水攻击 (QPS: 15K)
-# 🔥 总 QPS: 500K+ (20 浏览器并发)
+# Output:
+# ✅ [BROWSER] CAPTCHA Detected: CDNfly Difficult Slider
+# ✅ [BYPASS] Auto-dragging slider...
+# ✅ [BYPASS] Bypass successful!
+# ✅ [ATTACK] Flood attack initiated (QPS: 15K)
+# 🔥 Total QPS: 500K+ (20 concurrent browsers)
 ```
 
 ---
 
-## 📊 性能对比
+## 📊 Performance Comparison
 
-| 工具 | QPS | 绕过能力 | 自动化 | 推荐度 |
-|:----:|:---:|:-------:|:-----:|:-----:|
+| Tool | QPS | Bypass Capability | Automation | Recommendation |
+|:----:|:---:|:----------------:|:----------:|:--------------:|
 | **main.js** | **500K+** | ⭐⭐⭐⭐⭐ | ✅ 100% | ⭐⭐⭐⭐⭐ |
 | **floodernew.js** | **150K+** | ⭐⭐⭐⭐ | ✅ 100% | ⭐⭐⭐⭐⭐ |
 | **tls.js** | 25K+ | ⭐⭐⭐⭐⭐ | ✅ 100% | ⭐⭐⭐⭐⭐ |
 | **MHDDoS** | 50K+ | ⭐⭐ | ✅ 100% | ⭐⭐⭐⭐ |
-| 其他工具 | <10K | ❌ | ❌ | ⭐⭐ |
+| Other Tools | <10K | ❌ | ❌ | ⭐⭐ |
 
 ---
 
-## 🏆 完整武器库
+## 🏆 Complete Arsenal
 
-### 🎯 Layer 7 攻击方法（30+ 种）
+### 🎯 Layer 7 Attack Methods (30+)
 
 ```
-✅ GET         - HTTP GET 洪水
-✅ POST        - HTTP POST 洪水
-✅ HEAD        - HTTP HEAD 洪水
+✅ GET         - HTTP GET flood
+✅ POST        - HTTP POST flood
+✅ HEAD        - HTTP HEAD flood
 ✅ CFB         - Cloudflare Bypass
 ✅ CFBUAM      - Cloudflare UAM Bypass
-✅ HTTP/2      - HTTP/2 洪水（150K+ QPS）
-✅ TLS         - TLS/SSL 洪水（Cloudflare 专用）
-✅ BYPASS      - 智能绕过
-✅ SLOW        - 慢速攻击
-✅ NULL        - NULL 攻击
-✅ COOKIE      - Cookie 洪水
-✅ PPS         - Packet Per Second
-✅ APACHE      - Apache 服务器攻击
-✅ XMLRPC      - XML-RPC 攻击
-✅ BOMB        - 压缩炸弹
-✅ KILLER      - 杀手级攻击
-... 以及更多！
+✅ HTTP/2      - HTTP/2 flood (150K+ QPS)
+✅ TLS         - TLS/SSL flood (Cloudflare specialized)
+✅ BYPASS      - Smart bypass
+✅ SLOW        - Slowloris attack
+✅ NULL        - NULL attack
+✅ COOKIE      - Cookie flood
+✅ PPS         - Packets Per Second
+✅ APACHE      - Apache server attack
+✅ XMLRPC      - XML-RPC attack
+✅ BOMB        - Compression bomb
+✅ KILLER      - Killer attack
+... and more!
 ```
 
-### ⚔️ Layer 4 攻击方法（25+ 种）
+### ⚔️ Layer 4 Attack Methods (25+)
 
 ```
 ✅ SYN         - SYN Flood
-✅ TCP         - TCP 洪水
-✅ UDP         - UDP 洪水
-✅ DNS         - DNS 放大攻击
-✅ NTP         - NTP 放大攻击
-✅ Memcached   - Memcached 放大攻击
-✅ ICMP        - ICMP 洪水
-✅ Minecraft   - Minecraft 服务器攻击
-✅ FiveM       - FiveM 服务器攻击
-✅ TeamSpeak   - TeamSpeak 攻击
-✅ RDP         - RDP 攻击
-✅ CLDAP       - CLDAP 放大攻击
-... 以及更多！
+✅ TCP         - TCP flood
+✅ UDP         - UDP flood
+✅ DNS         - DNS amplification
+✅ NTP         - NTP amplification
+✅ Memcached   - Memcached amplification
+✅ ICMP        - ICMP flood
+✅ Minecraft   - Minecraft server attack
+✅ FiveM       - FiveM server attack
+✅ TeamSpeak   - TeamSpeak attack
+✅ RDP         - RDP attack
+✅ CLDAP       - CLDAP amplification
+... and more!
 ```
 
-### 🛡️ 验证码绕过能力（7+ 种）
+### 🛡️ CAPTCHA Bypass Capabilities (7+ Types)
 
 ```
-✅ CDNfly 新版 - 旋转图片验证码
-✅ CDNfly 新版 - 困难点击验证码
-✅ CDNfly 新版 - 简单点击验证码
-✅ CDNfly 新版 - 困难滑块验证码
-✅ CDNfly 新版 - 简单滑块验证码
-✅ CDNfly 新版 - 滑动按钮验证码
-✅ CDNfly 新版 - 计算验证码（YOLOv5）
-✅ Cloudflare  - 自动等待挑战
+✅ CDNfly New - Rotation Image CAPTCHA
+✅ CDNfly New - Difficult Click CAPTCHA
+✅ CDNfly New - Simple Click CAPTCHA
+✅ CDNfly New - Difficult Slider CAPTCHA
+✅ CDNfly New - Simple Slider CAPTCHA
+✅ CDNfly New - Sliding Button CAPTCHA
+✅ CDNfly New - Calculation CAPTCHA (YOLOv5)
+✅ Cloudflare - Automatic challenge bypass
 ```
 
 ---
 
-## 📖 文档
+## 📖 Documentation
 
-### 核心文档
+### Core Documentation
 
-- [快速开始指南](QUICKSTART.md) - 3 分钟上手
-- [贡献指南](CONTRIBUTING.md) - 如何贡献代码
-- [安全政策](SECURITY.md) - 安全漏洞报告
-- [变更日志](CHANGELOG.md) - 版本历史
-- [行为准则](CODE_OF_CONDUCT.md) - 社区规范
+- [Quick Start Guide](QUICKSTART.md) - Get started in 3 minutes
+- [Contributing Guidelines](CONTRIBUTING.md) - How to contribute
+- [Security Policy](SECURITY.md) - Report security vulnerabilities
+- [Changelog](CHANGELOG.md) - Version history
+- [Code of Conduct](CODE_OF_CONDUCT.md) - Community standards
 
-### 详细文档
+### Detailed Documentation
 
-- [CDNfly 绕过工具文档](docs/🆕%20CDNfly%20绕过工具文档.md) - CDNfly 验证码绕过详解
-- [代理获取与配置](legacy/) - 代理采集和管理
-- [攻击方法详解](legacy/mhddos/) - MHDDoS 完整使用说明
-- [云服务器部署](legacy/) - 高性能部署指南
+- [CDNfly Bypass Tools Documentation](docs/🆕%20CDNfly%20绕过工具文档.md) - CDNfly CAPTCHA bypass details
+- [Proxy Acquisition & Configuration](legacy/) - Proxy collection and management
+- [Attack Methods Details](legacy/mhddos/) - Complete MHDDoS usage guide
+- [Server Deployment](legacy/) - High-performance deployment guide
 
 ---
 
-## 🔧 高级用法
+## 🔧 Advanced Usage
 
-### 超高性能攻击（服务器部署）
+### Ultra High-Performance Attack (Server Deployment)
 
 ```bash
-# 1. 租用高带宽服务器（推荐 G-port）
-# 2. 运行一键安装脚本
+# 1. Rent a high-bandwidth server (recommended: G-port)
+# 2. Run one-click installation script
 sudo ./Nodejs.sh
 
-# 3. 获取大量代理
-node github_list.js          # GitHub 源（10K+）
-node fetch_api_proxy.js      # API 源（额外增加）
+# 3. Get massive proxies
+node github_list.js          # GitHub sources (10K+)
+node fetch_api_proxy.js      # API sources (additional)
 
-# 4. 多进程攻击
+# 4. Multi-process attack
 for i in {1..10}; do
   screen -dmS attack$i node floodernew.js GET "https://target.com" 300 16 90 proxies_all.txt
 done
 
-# 输出：总 QPS 可达 500K+
+# Output: Total QPS can reach 500K+
 ```
 
-### CDNfly 验证码自动绕过
+### CDNfly CAPTCHA Auto-Bypass
 
 ```bash
-# 使用 main.js 进行全自动攻击
+# Use main.js for fully automated attack
 node main.js \
   -u https://target-with-cdnfly.com \
   -p proxies_all.txt \
-  -t 30 \               # 30 个浏览器并发
-  -r 10 \               # 每个浏览器 10 req/s
-  -s 600 \              # 持续 10 分钟
-  -c \                  # 失败自动停用代理
-  -o                    # 优化：拦截字体加载
+  -t 30 \               # 30 concurrent browsers
+  -r 10 \               # 10 req/s per browser
+  -s 600 \              # 10 minutes duration
+  -c \                  # Auto-disable failed proxies
+  -o                    # Optimize: block font loading
 
-# main.js 会自动：
-# 1. 检测 CDNfly 验证码类型
-# 2. 调用对应的绕过策略
-# 3. 绕过成功后启动 nflood.js 攻击
-# 4. 达到 500K+ QPS
+# main.js will automatically:
+# 1. Detect CDNfly CAPTCHA type
+# 2. Execute corresponding bypass strategy
+# 3. Launch nflood.js attack after successful bypass
+# 4. Achieve 500K+ QPS
 ```
 
 ---
 
-## 🌍 社区与贡献
+## 🌍 Community & Contributing
 
-### 为什么需要你的贡献？
+### Why We Need Your Contribution?
 
-NetStrike Pro 的目标是成为**全球最强大的开源压力测试平台**。我们需要你的帮助：
+NetStrike Pro aims to become **the world's most powerful open-source stress testing platform**. We need your help:
 
-- 📝 **提交 Issue**: 报告 Bug 或建议新功能
-- 🔧 **提交 PR**: 贡献代码、修复问题、优化性能
-- 📚 **改进文档**: 补充文档、翻译、添加示例
-- 🌟 **分享项目**: 推荐给朋友、在社交媒体分享
-- 💡 **分享经验**: 分享使用技巧、攻击案例（合法授权）
+- 📝 **Submit Issues**: Report bugs or suggest new features
+- 🔧 **Submit PRs**: Contribute code, fix issues, optimize performance
+- 📚 **Improve Documentation**: Add documentation, translations, examples
+- 🌟 **Share the Project**: Recommend to friends, share on social media
+- 💡 **Share Experience**: Share usage tips, attack cases (legally authorized)
 
-### 贡献指南
+### Contribution Guidelines
 
-1. Fork 本仓库
-2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启一个 Pull Request
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-详细信息请查看 [CONTRIBUTING.md](CONTRIBUTING.md)
-
----
-
-## 🚀 未来发展路线图
-
-我们承诺持续更新和改进 NetStrike Pro：
-
-### ✅ 已完成
-- [x] 60+ 攻击方法集成
-- [x] CDNfly 验证码全自动绕过（7 种类型）
-- [x] Cloudflare 挑战自动绕过
-- [x] 500K+ QPS 性能优化
-- [x] 140+ 代理源自动采集
-- [x] 中英双语文档系统
-
-### 🔄 进行中
-- [ ] Web UI 控制面板
-- [ ] Docker 一键部署
-- [ ] 更多验证码类型支持（hCaptcha、reCAPTCHA）
-- [ ] 分布式攻击协调系统
-- [ ] 实时攻击监控与可视化
-
-### 📅 计划中
-- [ ] 移动端支持（iOS/Android）
-- [ ] 更多 CDN 绕过技术
-- [ ] AI 智能攻击策略优化
-- [ ] 全球代理池共享系统
-- [ ] 社区贡献者积分系统
+For details, see [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
-## 📊 项目统计
+## 🚀 Roadmap
+
+We are committed to continuous updates and improvements to NetStrike Pro:
+
+### ✅ Completed
+- [x] 60+ attack methods integration
+- [x] CDNfly CAPTCHA full auto-bypass (7 types)
+- [x] Cloudflare challenge auto-bypass
+- [x] 500K+ QPS performance optimization
+- [x] 140+ proxy source auto-collection
+- [x] Bilingual documentation system
+
+### 🔄 In Progress
+- [ ] Web UI control panel
+- [ ] Docker one-click deployment
+- [ ] More CAPTCHA types support (hCaptcha, reCAPTCHA)
+- [ ] Distributed attack coordination system
+- [ ] Real-time attack monitoring & visualization
+
+### 📅 Planned
+- [ ] Mobile support (iOS/Android)
+- [ ] More CDN bypass techniques
+- [ ] AI-powered smart attack strategy optimization
+- [ ] Global proxy pool sharing system
+- [ ] Community contributor points system
+
+---
+
+## 📊 Project Statistics
 
 [![GitHub stars](https://img.shields.io/github/stars/Hacker0458/NetStrike-Pro?style=social)](https://github.com/Hacker0458/NetStrike-Pro/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Hacker0458/NetStrike-Pro?style=social)](https://github.com/Hacker0458/NetStrike-Pro/network/members)
@@ -334,60 +341,60 @@ NetStrike Pro 的目标是成为**全球最强大的开源压力测试平台**�
 
 ---
 
-## 📜 开源协议
+## 📜 License
 
-本项目采用 [MIT License](LICENSE) 开源协议。
+This project is licensed under the [MIT License](LICENSE).
 
-这意味着你可以：
-- ✅ 自由使用、复制、修改、合并、发布、分发
-- ✅ 用于商业目的
-- ✅ 用于私人项目
+This means you can:
+- ✅ Use, copy, modify, merge, publish, distribute
+- ✅ Use for commercial purposes
+- ✅ Use for private projects
 
-但你必须：
-- ⚠️ 保留版权声明和许可声明
-- ⚠️ 仅用于合法授权的测试
+But you must:
+- ⚠️ Retain copyright and license notices
+- ⚠️ Use only for legally authorized testing
 
 ---
 
-## 🙏 致谢
+## 🙏 Acknowledgments
 
-NetStrike Pro 整合了多个优秀开源项目，特别感谢：
+NetStrike Pro integrates several excellent open-source projects. Special thanks to:
 
-- [MHDDoS](https://github.com/MatrixTM/MHDDoS) - 强大的 DDoS 工具
-- [YOLOv5](https://github.com/ultralytics/yolov5) - 验证码图像识别
-- [Puppeteer](https://github.com/puppeteer/puppeteer) - 浏览器自动化
-- [CDNfly Bypass](https://github.com/CoreTheBest/NewCdnfly_Bypass) - CDNfly 绕过技术
-- 所有 140+ 代理源的维护者们 🙏
+- [MHDDoS](https://github.com/MatrixTM/MHDDoS) - Powerful DDoS tool
+- [YOLOv5](https://github.com/ultralytics/yolov5) - CAPTCHA image recognition
+- [Puppeteer](https://github.com/puppeteer/puppeteer) - Browser automation
+- [CDNfly Bypass](https://github.com/CoreTheBest/NewCdnfly_Bypass) - CDNfly bypass techniques
+- All maintainers of 140+ proxy sources 🙏
 
-同时感谢所有为本项目做出贡献的开发者！
+Also, thanks to all developers who contributed to this project!
 
 [![Contributors](https://contrib.rocks/image?repo=Hacker0458/NetStrike-Pro)](https://github.com/Hacker0458/NetStrike-Pro/graphs/contributors)
 
 ---
 
-## 📧 联系方式
+## 📧 Contact
 
-- **GitHub Issues**: [提交问题](https://github.com/Hacker0458/NetStrike-Pro/issues)
-- **GitHub Discussions**: [参与讨论](https://github.com/Hacker0458/NetStrike-Pro/discussions)
+- **GitHub Issues**: [Submit Issues](https://github.com/Hacker0458/NetStrike-Pro/issues)
+- **GitHub Discussions**: [Join Discussions](https://github.com/Hacker0458/NetStrike-Pro/discussions)
 - **Email**: fangp458@gmail.com
-- **Author**: Jack Froson (Hacker0458)
+- **Author**: Jack Froson ([@Hacker0458](https://github.com/Hacker0458))
 
 ---
 
-## ⚠️ 免责声明
+## ⚠️ Disclaimer
 
-1. 本工具**仅供合法的安全测试和教育研究使用**
-2. 使用者必须遵守所在国家/地区的法律法规
-3. 使用者必须获得目标系统所有者的**书面授权**
-4. 严禁用于任何非法用途，包括但不限于：
-   - ❌ 未经授权的攻击测试
-   - ❌ 恶意破坏网络服务
-   - ❌ 敲诈勒索
-   - ❌ 其他违法犯罪活动
-5. 违法使用造成的一切后果由使用者自行承担
-6. 本项目作者和贡献者不承担任何法律责任
+1. This tool is **ONLY for legal security testing and educational research**
+2. Users must comply with the laws and regulations of their country/region
+3. Users must obtain **written authorization** from target system owners
+4. **Unauthorized use is strictly prohibited**, including but not limited to:
+   - ❌ Unauthorized attack testing
+   - ❌ Malicious disruption of network services
+   - ❌ Extortion and blackmail
+   - ❌ Other illegal and criminal activities
+5. Users are solely responsible for all consequences of illegal use
+6. The author and contributors of this project assume no legal liability
 
-**使用本工具即表示你同意以上条款。**
+**By using this tool, you agree to the above terms.**
 
 ---
 
@@ -399,12 +406,22 @@ NetStrike Pro 整合了多个优秀开源项目，特别感谢：
 
 ---
 
-### 💝 如果这个项目帮到了你，请给我们一个 Star！
+### 💝 If this project helps you, please give us a Star!
 
-### 让我们一起打造全球最强大的开源压力测试平台！
+### Let's build the world's most powerful open-source stress testing platform together!
 
-**Made with ❤️ by Jack Froson (Hacker0458) & the Security Community**
+**Made with ❤️ by Jack Froson ([@Hacker0458](https://github.com/Hacker0458)) & the Security Community**
 
-⚡ **NetStrike Pro** - 改变世界，从现在开始 ⚡
+⚡ **NetStrike Pro** - Empowering Security Testing ⚡
+
+</div>
+
+---
+
+<div align="center">
+
+## 🇨🇳 中文版本
+
+[点击查看中文文档](docs/README_CN.md)
 
 </div>
