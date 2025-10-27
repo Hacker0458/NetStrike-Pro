@@ -369,7 +369,8 @@ NetStrike Pro 整合了多个优秀开源项目，特别感谢：
 
 - **GitHub Issues**: [提交问题](https://github.com/Hacker0458/NetStrike-Pro/issues)
 - **GitHub Discussions**: [参与讨论](https://github.com/Hacker0458/NetStrike-Pro/discussions)
-- **Email**: hacker0458@users.noreply.github.com
+- **Email**: fangp458@gmail.com
+- **Author**: Jack Froson (Hacker0458)
 
 ---
 
@@ -402,7 +403,7 @@ NetStrike Pro 整合了多个优秀开源项目，特别感谢：
 
 ### 让我们一起打造全球最强大的开源压力测试平台！
 
-**Made with ❤️ by Hacker0458 & the Security Community**
+**Made with ❤️ by Jack Froson (Hacker0458) & the Security Community**
 
 ⚡ **NetStrike Pro** - 改变世界，从现在开始 ⚡
 
