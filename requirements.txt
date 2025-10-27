@@ -1,0 +1,48 @@
+# NetStrike Pro - Requirements
+# Professional Network Stress Testing Suite
+
+# Core Dependencies
+requests>=2.31.0
+urllib3>=2.0.0
+pysocks>=1.7.1
+certifi>=2023.0.0
+PyYAML>=6.0
+
+# Rich Terminal UI
+rich>=13.7.0
+alive-progress>=3.1.5
+colorama>=0.4.6
+pyfiglet>=1.0.2
+
+# Async Support
+aiohttp>=3.9.0
+asyncio>=3.4.3
+
+# Proxy Management
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# MHDDoS Dependencies
+PyRoxy>=0.2.0
+cloudscraper>=1.2.71
+impacket>=0.11.0
+icmplib>=3.0.3
+psutil>=5.9.0
+yarl>=1.9.0
+dnspython>=2.4.0
+
+# Web Interface (Optional)
+flask>=3.0.0
+flask-socketio>=5.3.0
+flask-cors>=4.0.0
+
+# Performance
+ujson>=5.8.0
+orjson>=3.9.0
+
+

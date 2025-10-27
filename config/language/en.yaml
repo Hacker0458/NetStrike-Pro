@@ -1,0 +1,109 @@
+# NetStrike Pro - English Language Configuration
+
+# Brand
+brand:
+  name: "NetStrike Pro"
+  tagline: "Professional Network Stress Testing Suite"
+  version: "Version 5.0"
+
+# Legal Notice
+legal:
+  title: "⚠️  IMPORTANT LEGAL NOTICE"
+  warning_line1: "This tool is for AUTHORIZED security testing ONLY!"
+  warning_line2: "Unauthorized testing is ILLEGAL and may result in prosecution!"
+  requirements_title: "Before use, you MUST:"
+  req1: "✓ Have written authorization"
+  req2: "✓ Read LEGAL.md completely"
+  req3: "✓ Accept all liability"
+  footer: "For details, read [LEGAL.md] in project directory"
+
+# Main Menu
+menu:
+  title: "MAIN MENU"
+  quick_attack: "Quick Attack"
+  advanced_attack: "Advanced Attack"
+  layer4_attack: "Layer 4 Attack"
+  game_attack: "Game Server Attack"
+  tools: "Tools Suite"
+  proxy: "Proxy Manager"
+  settings: "Settings"
+  help: "Help & Documentation"
+  exit: "Exit"
+  
+# Status Messages
+status:
+  operational: "All systems operational"
+  initializing: "Initializing..."
+  ready: "Ready"
+  running: "Running"
+  completed: "Completed"
+  failed: "Failed"
+  stopped: "Stopped"
+
+# Attack Messages
+attack:
+  detecting: "Analyzing target..."
+  cdn_detected: "CDN Detected"
+  server_detected: "Server Detected"
+  protection_level: "Protection Level"
+  recommended_method: "Recommended Method"
+  proceed_question: "Proceed with recommended method?"
+  starting: "Starting attack..."
+  in_progress: "Attack in progress"
+  completed: "Attack completed"
+  stopped_by_user: "Stopped by user"
+  
+# Proxy Messages
+proxy:
+  updating: "Updating proxy pool..."
+  testing: "Testing proxies..."
+  found: "proxies found"
+  valid: "valid proxies"
+  active: "active"
+  failed: "failed"
+  
+# Performance
+performance:
+  qps: "QPS"
+  total_sent: "Total Sent"
+  success_rate: "Success Rate"
+  bandwidth: "Bandwidth"
+  cpu: "CPU"
+  ram: "RAM"
+  network: "Network"
+
+# Prompts
+prompts:
+  enter_target: "Enter target URL or IP:PORT"
+  enter_choice: "Enter your choice"
+  press_enter: "Press Enter to continue"
+  ctrl_c_to_stop: "Press [Ctrl+C] to stop"
+  confirm_yes_no: "(Y/n)"
+  
+# Errors
+errors:
+  invalid_target: "Invalid target"
+  invalid_method: "Invalid method"
+  no_proxies: "No proxies available"
+  connection_failed: "Connection failed"
+  permission_denied: "Permission denied (try sudo)"
+  
+# Success Messages
+success:
+  proxy_updated: "Proxy pool updated"
+  attack_started: "Attack started successfully"
+  test_passed: "Test passed"
+  
+# Features List
+features:
+  title: "Features / 核心功能:"
+  f1: "60+ Attack Methods"
+  f2: "Automated Proxy Management"
+  f3: "Intelligent Target Detection"
+  f4: "Layer 4 + Layer 7 Support"
+  f5: "Game Server Attack"
+  f6: "Amplification Attacks"
+  f7: "CloudFlare Bypass"
+  f8: "Interactive UI"
+
+

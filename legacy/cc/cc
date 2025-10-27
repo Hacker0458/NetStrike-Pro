@@ -1,0 +1,32 @@
+#!/bin/bash
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt $2 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+node cc.js $1 cc.txt 60 &
+echo 'CC开始'

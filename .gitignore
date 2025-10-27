@@ -1,0 +1,149 @@
+# NetStrike Pro - Git Ignore File
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+*.pyc
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.venv/
+venv/
+ENV/
+env/
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.eslintcache
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# === OS Generated ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# === Temporary Files ===
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+
+# === Sensitive Data ===
+# Proxies (comment out if you want to track them)
+proxy.txt
+proxy_*.txt
+proxies*.txt
+!proxies_example.txt
+
+# Cookies
+cookie*.txt
+cookies*.txt
+
+# API Keys and Credentials
+*.key
+*.pem
+*.cert
+.env
+.env.local
+.env.*.local
+config.json
+secrets.json
+
+# === Project Specific ===
+# Downloaded proxies
+legacy/proxies_all.txt
+legacy/proxies_http.txt
+legacy/proxies_socks4.txt
+legacy/proxies_socks5.txt
+
+# Filtered proxies
+proxy_filtered.txt
+proxy_working.txt
+
+# Screen sessions
+screenlog.*
+
+# CAPTCHA results
+captcha_results/
+screenshots/
+
+# MHDDoS specific
+legacy/mhddos/files/proxies/*.txt
+!legacy/mhddos/files/proxies/.gitkeep
+
+# Model files (too large for git)
+*.pt
+*.pth
+*.h5
+*.onnx
+siamese_model.pt
+best.pt
+
+# === Documentation Temporary ===
+docs/_build/
+*.pdf
+*.docx
+
+# === Test Files ===
+test_output/
+test_*.txt
+debug_*.log
+
+# === Build Artifacts ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+!cc.zip
+
+# === Database ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Keep These ===
+!.gitkeep
+!README.md
+!LICENSE
+!CONTRIBUTING.md

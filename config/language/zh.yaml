@@ -1,0 +1,109 @@
+# NetStrike Pro - 中文语言配置
+
+# 品牌
+brand:
+  name: "网击专业版"
+  tagline: "专业网络压力测试套件"
+  version: "版本 5.0"
+
+# 法律声明
+legal:
+  title: "⚠️  重要法律声明"
+  warning_line1: "本工具仅供合法授权的安全测试使用！"
+  warning_line2: "未经授权的测试是违法的，可能面临刑事起诉！"
+  requirements_title: "使用前必须："
+  req1: "✓ 拥有书面授权"
+  req2: "✓ 完整阅读法律声明"
+  req3: "✓ 承担所有法律责任"
+  footer: "详细说明请阅读项目目录下的【法律声明.md】文件"
+
+# 主菜单
+menu:
+  title: "主菜单"
+  quick_attack: "快速攻击"
+  advanced_attack: "高级攻击"
+  layer4_attack: "Layer 4 攻击"
+  game_attack: "游戏服务器攻击"
+  tools: "工具套件"
+  proxy: "代理管理器"
+  settings: "设置"
+  help: "帮助文档"
+  exit: "退出"
+  
+# 状态消息
+status:
+  operational: "所有系统正常"
+  initializing: "正在初始化..."
+  ready: "就绪"
+  running: "运行中"
+  completed: "已完成"
+  failed: "失败"
+  stopped: "已停止"
+
+# 攻击消息
+attack:
+  detecting: "正在分析目标..."
+  cdn_detected: "检测到 CDN"
+  server_detected: "检测到服务器"
+  protection_level: "防护级别"
+  recommended_method: "推荐方法"
+  proceed_question: "是否使用推荐方法？"
+  starting: "正在启动攻击..."
+  in_progress: "攻击进行中"
+  completed: "攻击已完成"
+  stopped_by_user: "用户已停止"
+  
+# 代理消息
+proxy:
+  updating: "正在更新代理池..."
+  testing: "正在测试代理..."
+  found: "个代理"
+  valid: "个有效代理"
+  active: "活跃"
+  failed: "失败"
+  
+# 性能
+performance:
+  qps: "请求速率"
+  total_sent: "总发送"
+  success_rate: "成功率"
+  bandwidth: "带宽"
+  cpu: "处理器"
+  ram: "内存"
+  network: "网络"
+
+# 提示
+prompts:
+  enter_target: "请输入目标 URL 或 IP:端口"
+  enter_choice: "请输入选项"
+  press_enter: "按回车继续"
+  ctrl_c_to_stop: "按 [Ctrl+C] 停止"
+  confirm_yes_no: "(是/否)"
+  
+# 错误
+errors:
+  invalid_target: "无效的目标"
+  invalid_method: "无效的方法"
+  no_proxies: "没有可用代理"
+  connection_failed: "连接失败"
+  permission_denied: "权限不足（尝试 sudo）"
+  
+# 成功消息
+success:
+  proxy_updated: "代理池已更新"
+  attack_started: "攻击已成功启动"
+  test_passed: "测试通过"
+  
+# 功能列表
+features:
+  title: "核心功能:"
+  f1: "60+ 种攻击方法"
+  f2: "自动化代理管理"
+  f3: "智能目标检测"
+  f4: "Layer 4 + Layer 7 支持"
+  f5: "游戏服务器攻击"
+  f6: "放大攻击"
+  f7: "CloudFlare 绕过"
+  f8: "交互式界面"
+
+

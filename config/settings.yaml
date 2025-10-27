@@ -1,0 +1,59 @@
+# NetStrike Pro - Main Configuration
+# Professional Network Stress Testing Suite
+
+# Application Info
+app:
+  name: "NetStrike Pro"
+  version: "5.0.0"
+  author: "Security Research Team"
+  
+# Default Language
+language: "en"  # en or zh
+
+# Proxy Settings
+proxy:
+  auto_update: true
+  auto_validate: true
+  min_proxies: 100
+  test_timeout: 5
+  paid_api_url: "http://zhuoyuekeji.zhuoyuejituan.com:66/ProxyiPAPI.aspx?action=GetIP&ordernumber=f73f103664b56829ee82fc5087472665&cache=0&qty=1000"
+
+# Attack Defaults
+attack:
+  default_threads: 500
+  default_duration: 180
+  default_timeout: 10
+  max_threads: 5000
+
+# Detector Settings
+detector:
+  enable_cdn_detection: true
+  enable_server_detection: true
+  enable_vulnerability_scan: false  # Disabled by default for safety
+
+# UI Settings
+ui:
+  show_intro: true
+  show_legal_notice: true
+  refresh_rate: 4  # Hz
+  animation_speed: 0.01
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "netstrike.log"
+  max_size: 10485760  # 10MB
+  backup_count: 3
+
+# Performance
+performance:
+  enable_monitoring: true
+  cpu_limit: 90  # percentage
+  ram_limit: 80  # percentage
+  
+# Legal
+legal:
+  require_confirmation: true
+  show_warning: true
+
+
