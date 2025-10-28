@@ -74,6 +74,8 @@ desktop.ini
 proxy.txt
 proxy_*.txt
 proxies*.txt
+vps_proxy.txt
+*_proxy.txt
 !proxies_example.txt
 
 # Cookies
@@ -89,6 +91,23 @@ cookies*.txt
 .env.*.local
 config.json
 secrets.json
+auth.txt
+credentials.txt
+
+# Deployment files with real configs
+*部署指南*.md
+*使用指南*.md
+*部署方案*.md
+一键部署*.sh
+deploy_real*.sh
+
+# Temporary/Personal files
+推文*.txt
+tweet*.txt
+*临时*.txt
+*temp*.md
+notes.txt
+todo_private.txt
 
 # === Project Specific ===
 # Downloaded proxies
